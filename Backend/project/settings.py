@@ -24,7 +24,7 @@ SECRET_KEY=os.getenv('DJANGO_SECRET_KEY') #SETTING_JSON['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = bool(os.getenv("DEBUG",False))
+DEBUG = bool(os.getenv("DEBUG",'').lower().strip() in ('true','1',))
 
 ALLOWED_HOSTS = (os.getenv('ALLOWED_HOSTS').split(';') if os.getenv('ALLOWED_HOSTS') else [])
 
