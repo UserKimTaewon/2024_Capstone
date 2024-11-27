@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import axiosInstance from "./axiosInstance";
+import axiosInstance from "../api/axiosInstance";
 import { useRouter } from "next/router";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";

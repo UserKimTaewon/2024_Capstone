@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import axiosInstance from "./axiosInstance";
+import axiosInstance from "../api/axiosInstance";
 import { useRouter } from "next/router";
 import { useDispatch } from 'react-redux';
 import { loginSuccess } from './slices/authSlice';

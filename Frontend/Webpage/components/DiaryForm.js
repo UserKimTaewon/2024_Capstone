@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Container, TextField, Button, Typography, Box, Paper } from '@mui/material';
 import { useRouter } from 'next/router';
-import axiosInstance from '../pages/axiosInstance.js'
+import axiosInstance from '../api/axiosInstance.js'
 
 const DiaryForm = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();

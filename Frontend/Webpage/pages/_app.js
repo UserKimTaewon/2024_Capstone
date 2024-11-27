@@ -4,7 +4,7 @@ import App from "next/app";
 import Head from "next/head";
 import "/styles/scss/nextjs-material-kit.scss?v=1.2.0";
 import { Provider } from 'react-redux';
-import { store } from './store';
+import { store } from '../api/store';
 
 export default class MyApp extends App {
 

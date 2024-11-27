@@ -7,7 +7,7 @@ import CardHeader from "/components/Card/CardHeader.js";
 import CardBody from "/components/Card/CardBody.js";
 import Button from "/components/CustomButtons/Button.js";
 import Typography from "@mui/material/Typography";
-import axiosInstance from "./axiosInstance";
+import axiosInstance from "../api/axiosInstance";
 import styles from "/styles/jss/nextjs-material-kit/pages/loginPage.js";
 import Header from "/components/Header/Header.js";
 import HeaderLinks from "/components/Header/HeaderLinks.js";

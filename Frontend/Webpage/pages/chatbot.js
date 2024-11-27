@@ -99,6 +99,7 @@ const Chatbot = () => {
                   <MenuItem onClick={() => handleMenuClose('/landing')}>Home</MenuItem>
                   <MenuItem onClick={() => handleMenuClose('/chatexplain')}>How to Use</MenuItem>
                   <MenuItem onClick={() => handleMenuClose('/chatbot')}>Chatbot</MenuItem>
+                  <MenuItem onClick={() => handleEndChat()}>End Chat</MenuItem>
                 </Menu>
               </>
             )}

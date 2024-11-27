@@ -1,5 +1,5 @@
 // journal.js
-import axiosInstance from '../pages/axiosInstance';
+import axiosInstance from './axiosInstance';
 
 export const saveJournal = async (journal) => {
   try {

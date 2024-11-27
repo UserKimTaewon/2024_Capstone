@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import Header from "/components/Header/Header.js";
 import HeaderLinks from "/components/Header/HeaderLinks.js";
 import Footer from "/components/Footer/Footer.js";
-import axiosInstance from "../axiosInstance";
+import axiosInstance from "../../api/axiosInstance";
 import styles from "/styles/jss/nextjs-material-kit/pages/loginPage.js";
 import { Chart } from "chart.js/auto"
 import { Pie } from 'react-chartjs-2';
