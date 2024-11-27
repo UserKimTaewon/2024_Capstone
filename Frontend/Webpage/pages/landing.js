@@ -51,8 +51,8 @@ export default function LandingPage(props) {
               <h4>
                 일상을 살아가다 보면, 가끔 지치고 힘들 때가 있습니다.<br/>
                 저희 Deer AI 다이어리 서비스를 이용해 보세요<br/>
-                당신이 쓴 일기의 심리를 분석해 주고<br/>
-                맞춤형 상담을 제공해드립니다<br/>
+                1:1 대화를 통해 일기를 작성하고<br/>
+                당신이 쓴 일기의 심리를 분석해 줍니다<br/>
               </h4>
               <br />
               <Button
